@@ -5,30 +5,13 @@ import Foundation
 
     func isPalindrome (_ x: Int) -> Bool {
         
-        let array = String(x)
+        let str = Array(String(x))
         
-        if x%2 == 0 {
-            let onehalf = array.count / 2
-            
-            for i in 1...onehalf {
-                if array.prefix(i) == array.suffix(i) {
-                    return true
-                } else {
-                    return false
-                }
-            }
-            
-        } else {
-            let otherhalf = (array.count-1) / 2
-            
-            for i in 1...otherhalf {
-                if array.prefix(i) == array.suffix(i) {
-                    return true
-                } else {
-                    return false
-                }
-            }
-        }
+        let firstPivot = str[0]
+        let lastpivot = str[str.count-1]
+        
+        while
+        
         return false
     }
 
