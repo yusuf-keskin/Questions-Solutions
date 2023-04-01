@@ -30,15 +30,12 @@ func search(_ nums: [Int], _ target: Int) -> Int {
             }
         }
     }
-    
-  
+
     return -1
 }
 
 var nums = [13,14,15,16,0,1,2,3,4,5,6,7,8,9,10]
 
 search(nums, 6)
-
-
 
 

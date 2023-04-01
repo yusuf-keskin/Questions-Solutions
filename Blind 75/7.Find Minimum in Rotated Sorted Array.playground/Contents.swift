@@ -26,7 +26,7 @@ import Foundation
  */
 
 
-var array = [4,5,6,7,0,1,2]
+var array = [4,5,6,7,0,1,2,3]
 var array2 = [4,5,6,7,2,3]
 
 func findMin(_ nums: [Int]) -> Int {

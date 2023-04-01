@@ -23,3 +23,5 @@ func maxProfit(_ prices: [Int]) -> Int {
 
 maxProfit(prices)
 maxProfit(otherPrices)
+
+
